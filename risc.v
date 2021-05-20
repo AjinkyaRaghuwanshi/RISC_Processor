@@ -21,7 +21,7 @@
 `include "signex9.v"
 `include "zeropad.v"
 `include "oneshiftleft.v"
-
+`include "adder2.v"
 
 
 module risc(input clk, input rst);
