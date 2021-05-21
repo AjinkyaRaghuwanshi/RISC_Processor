@@ -1,4 +1,3 @@
-
 module pencoder(ina, inb, inc, ind, ine, out);
 	input ina, inb, inc, ind, ine, stallpc;
 	output reg [4:0] out;
