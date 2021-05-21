@@ -1,5 +1,3 @@
-
-
 `include "define.v"
 
 module imemory(addr, data);
@@ -7,7 +5,7 @@ module imemory(addr, data);
 input [`memaddrsize-1:0] addr;
 output [`datasize-1:0] data;
 
-reg [`datasize-1:0] mem [0:30];
+reg [`datasize-1:0] mem [0:25];
 
 initial $readmemh("imemory.h", mem);
 
