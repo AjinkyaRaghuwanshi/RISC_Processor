@@ -1,5 +1,3 @@
-
-
 `include "define.v"
 module pcaddr(branch, decision, waddrIDRR, waddrRREX, waddrEXMM, opcodeID, opcodeIDRR, opcodeRREX, opcodeEXMM, inc_pc, pcppIDRR, exID, exIDRR, pcexID, pcexIDRR, rddataRREX, aluoutEX, flagEX, condRREX, memrdMM, flushIFID, flushIDRR, flushRREX, flushEXMM, data, stall, nowr);
 
